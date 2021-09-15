@@ -21,7 +21,7 @@
 - [ ] Here is the reason why:
   * **TRUST**: Each voting count is irreversible with smart contract meaning that no one can ALTER the vote, hence fortify trust within the participant pool
   * **Zero downtime**: once the smart contract at the core of an app is deployed and on the blockchain, the network as a whole will always be able to serve clients looking to interact with the contract. Malicious actors therefore cannot launch denial-of-service attacks targeted towards individual dapps.
-  * **Privacy**: you don’t need to provide real-world identity to deploy or interact with a dapp.
-  * **Resistance to censorship**: no single entity on the network can block users from submitting transactions, deploying dapps, or reading data from the blockchain.
+  * **Privacy**: you don’t need to provide real-world identity interact with a dapp as long as you have authorized permission to vote.
+  * **Resistance to censorship**: no single entity on the network can block users from submitting transactions or reading data from the blockchain.
 
 ## Voting dApp Design 
