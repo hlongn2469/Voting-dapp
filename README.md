@@ -2,3 +2,4 @@
 
 ## Prerequisite concepts
 
+### What is dapp?
