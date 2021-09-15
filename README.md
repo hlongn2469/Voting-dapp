@@ -1,1 +1,4 @@
 # Voting-dapp
+
+## Prerequisite concepts
+
