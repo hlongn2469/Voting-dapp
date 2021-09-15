@@ -24,4 +24,6 @@
   * **Privacy**: you don’t need to provide real-world identity interact with a dapp as long as you have authorized permission to vote.
   * **Resistance to censorship**: no single entity on the network can block users from submitting transactions or reading data from the blockchain.
 
-## Voting dApp Design 
+## Voting dApp Design Architecture
+![voting-dapp drawio](https://user-images.githubusercontent.com/78957509/133527228-a4f9795e-093d-465a-b377-fc4a9add5b04.png)
+
