@@ -24,6 +24,18 @@
   * **Privacy**: you don’t need to provide real-world identity interact with a dapp as long as you have authorized permission to vote.
   * **Resistance to censorship**: no single entity on the network can block users from submitting transactions or reading data from the blockchain.
 
-## Voting dApp Design Architecture
+## Voting dApp Design Plan
 ![voting-dapp drawio](https://user-images.githubusercontent.com/78957509/133527228-a4f9795e-093d-465a-b377-fc4a9add5b04.png)
+- [ ] "Transactions" can be referred as votes in our context.
+- [ ] Tech stack:
+  * Front-end: JavaScript, HTML, CSS, Web3js, Metamask wallet
+    * Web3JS: Ethereum JavaScript API that allow you to interact with a local or remote ethereum node using HTTP, IPC, or WebSocket.
+    * Metamask: google chrome extension of an interface wallet that allows users to interact with the blockchain network
+  * Back-end: Solidity, Nodejs, npm, Ganache
+    * Solidity: The language used to build smart contracts that runs on Ethereum
+    * NodeJS: back-end JavaScript runtime environment.
+    * NPM: Node Package Manager
+    * Ganache: A local in-memory blockchain. 
+  * Testing: Truffle
+    * Truffle: Framework for compiling, migrating and testing smart contracts.
 
