@@ -36,6 +36,8 @@
     * NodeJS: back-end JavaScript runtime environment.
     * NPM: Node Package Manager
     * Ganache: A local in-memory blockchain. 
-  * Testing: Truffle
+  * Testing: Truffle, Mocha, Chai
     * Truffle: Framework for compiling, migrating and testing smart contracts.
+    * Mocha: JS testing framework
+    * Chai: Assertion library
 
