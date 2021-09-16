@@ -29,7 +29,7 @@
 - [ ] "Transactions" can be referred as votes in our context.
 - [ ] Tech stack:
   * Front-end: JavaScript, HTML, CSS, Web3js, Metamask wallet
-    * Web3JS: Ethereum JavaScript API that allow you to interact with a local or remote ethereum node using HTTP, IPC, or WebSocket.
+    * Web3JS: javascript library that allows our client-side application to talk to the blockchain.
     * Metamask: google chrome extension of an interface wallet that allows users to interact with the blockchain network
   * Back-end: Solidity, Nodejs, npm, Ganache
     * Solidity: The language used to build smart contracts that runs on Ethereum
