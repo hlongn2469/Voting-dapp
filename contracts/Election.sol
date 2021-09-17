@@ -20,10 +20,15 @@ contract Election {
     // Store Candidates Count
     uint public candidatesCount;
 
+
+    event votedEvent (
+        uint indexed _candidateId
+    );
+    
     // Constructor
     constructor() public {
-        addCandidate("Candidate 1");
-        addCandidate("Candidate 2");
+        addCandidate("Donald J. Trump");
+        addCandidate("Joe Biden");
     }
 
     // add candidate into the map
@@ -46,5 +51,8 @@ contract Election {
 
         // update candidate vote Count
         candidates[_candidateId].voteCount ++;
+
+        // trigger voted event
+        emit votedEvent(_candidateId);
     }
 }
