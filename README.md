@@ -1,4 +1,8 @@
-# Voting-dapp
+# Voting Decentralized App (Dapp)
+
+## Motivation
+ 1. Reduce time and resources for all American voters with online voting system aka this Dapp
+ 2. Fortify trust among voters. To emphasize how important trust is in voting, please refer to the mysterious vote fraud event happening in presidential election 2020: https://www.forbes.com/sites/jemimamcevoy/2020/12/17/these-are-the-voter-fraud-claims-trump-tried-and-failed-to-overturn-the-election-with/?sh=bfa82a258c5a
 
 ## Prerequisite concepts
 
