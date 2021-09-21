@@ -66,6 +66,7 @@
  ![image](https://user-images.githubusercontent.com/78957509/134257777-d95720b9-922b-4196-8107-3b7d621ddd66.png)
  
 5. Import ganache account to your metamask wallet
+
  a. Click on metamask extension and proceed to import account. You will see the prompted private key string.
  
  ![image](https://user-images.githubusercontent.com/78957509/134257928-b4481e93-dee1-471b-80c2-7c1ee0a04c65.png)
