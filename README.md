@@ -55,10 +55,12 @@
 
 ### Usage Instructions (Dev environment)
 1. Clone this repo to your local folder
-2. Run local development server
-```js
- npm run dev
-```
+2. Run local development server (assuming node and npm installed)
+ ```js
+  npm run dev
+ ```
+ ![image](https://user-images.githubusercontent.com/78957509/134257470-9fa25ba1-9131-4e41-9a02-67e5d1c87e42.png)
+
 
 
 
