@@ -93,7 +93,7 @@
 
  ![image](https://user-images.githubusercontent.com/78957509/134258575-f310b9f2-49e2-45de-bdc8-2b72a642e5df.png)
  
-7. Pay gas fee to cast a vote
+7. Pay gas fee to cast a vote ( In reality, you should not be paying to cast a vote. This can be a room for improvement)
 
  ![image](https://user-images.githubusercontent.com/78957509/134258683-22302eca-b93d-43c1-bf32-9ae7facdc21d.png)
  
