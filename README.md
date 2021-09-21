@@ -54,6 +54,11 @@
   * **Resistance to censorship**: no single entity on the network can block users from submitting transactions or reading data from the blockchain.
 
 ### Usage Instructions (Dev environment)
+1. Clone this repo to your local folder
+2. Run local development server
+```js
+ npm run dev
+```
 
 
 
