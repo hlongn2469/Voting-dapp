@@ -1,5 +1,29 @@
 # Voting Decentralized App (Dapp)
 
+## Voting dApp Design Plan
+![voting-dapp drawio](https://user-images.githubusercontent.com/78957509/133527228-a4f9795e-093d-465a-b377-fc4a9add5b04.png)
+- [ ] "Transactions" can be referred as votes in our context.
+- [ ] Functional Requirement:
+ * The user with a valid metamask account can cast only one vote to a specified candidate
+ * Once a user has voted, the app removes the ability to revote from the user
+- [ ] Use case:
+![Usecase drawio](https://user-images.githubusercontent.com/78957509/134256321-c93d4257-51f0-44e8-93b0-8d7ea6bc1cb3.png)
+
+- [ ] Tech stack:
+  * Front-end: JavaScript, HTML, CSS, Web3js, Metamask wallet
+    * Web3JS: javascript library that allows our client-side application to talk to the blockchain.
+    * Metamask: google chrome extension of an interface wallet that allows users to interact with the blockchain network
+  * Back-end: Solidity, Nodejs, npm, Ganache
+    * Solidity: The language used to build smart contracts that runs on Ethereum
+    * NodeJS: back-end JavaScript runtime environment.
+    * NPM: Node Package Manager
+    * Ganache: A local in-memory blockchain. 
+  * Testing: Truffle, Mocha, Chai
+    * Truffle: Framework for compiling, migrating and testing smart contracts.
+    * Mocha: JS testing framework
+    * Chai: Assertion library
+  * Deploy: CI/CD with AWS Amplify
+
 ## Motivation
  1. Reduce time and resources for all American voters with online voting system aka this Dapp
  2. Fortify trust among voters. To emphasize how important trust is in voting, please refer to the mysterious vote fraud event happening in presidential election 2020: https://www.forbes.com/sites/jemimamcevoy/2020/12/17/these-are-the-voter-fraud-claims-trump-tried-and-failed-to-overturn-the-election-with/?sh=bfa82a258c5a
@@ -28,27 +52,5 @@
   * **Privacy**: you don’t need to provide real-world identity interact with a dapp as long as you have authorized permission to vote.
   * **Resistance to censorship**: no single entity on the network can block users from submitting transactions or reading data from the blockchain.
 
-## Voting dApp Design Plan
-- [ ] Structural flow:
-![voting-dapp drawio](https://user-images.githubusercontent.com/78957509/133527228-a4f9795e-093d-465a-b377-fc4a9add5b04.png)
-- [ ] Functional Requirement:
- * The user with a valid metamask account can cast only one vote to a specified candidate
- * Once a user has voted, the app removes the ability to revote from the user
-- [ ] Use case:
-![Usecase drawio](https://user-images.githubusercontent.com/78957509/134256321-c93d4257-51f0-44e8-93b0-8d7ea6bc1cb3.png)
-- [ ] "Transactions" can be referred as votes in our context.
-- [ ] Tech stack:
-  * Front-end: JavaScript, HTML, CSS, Web3js, Metamask wallet
-    * Web3JS: javascript library that allows our client-side application to talk to the blockchain.
-    * Metamask: google chrome extension of an interface wallet that allows users to interact with the blockchain network
-  * Back-end: Solidity, Nodejs, npm, Ganache
-    * Solidity: The language used to build smart contracts that runs on Ethereum
-    * NodeJS: back-end JavaScript runtime environment.
-    * NPM: Node Package Manager
-    * Ganache: A local in-memory blockchain. 
-  * Testing: Truffle, Mocha, Chai
-    * Truffle: Framework for compiling, migrating and testing smart contracts.
-    * Mocha: JS testing framework
-    * Chai: Assertion library
-  * Deploy: CI/CD with AWS Amplify
+
 
