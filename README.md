@@ -29,6 +29,9 @@
   * **Resistance to censorship**: no single entity on the network can block users from submitting transactions or reading data from the blockchain.
 
 ## Voting dApp Design Plan
+- [ ] Functional Requirement:
+ * The user with a valid metamask account can cast only one vote to a specified candidate
+ * Once a user has voted, the app removes the ability to revote from the user
 ![voting-dapp drawio](https://user-images.githubusercontent.com/78957509/133527228-a4f9795e-093d-465a-b377-fc4a9add5b04.png)
 - [ ] "Transactions" can be referred as votes in our context.
 - [ ] Tech stack:
@@ -44,4 +47,5 @@
     * Truffle: Framework for compiling, migrating and testing smart contracts.
     * Mocha: JS testing framework
     * Chai: Assertion library
+  * Deploy: CI/CD with AWS Amplify
 
