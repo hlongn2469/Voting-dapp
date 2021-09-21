@@ -29,10 +29,13 @@
   * **Resistance to censorship**: no single entity on the network can block users from submitting transactions or reading data from the blockchain.
 
 ## Voting dApp Design Plan
+- [ ] Structural flow:
+![voting-dapp drawio](https://user-images.githubusercontent.com/78957509/133527228-a4f9795e-093d-465a-b377-fc4a9add5b04.png)
 - [ ] Functional Requirement:
  * The user with a valid metamask account can cast only one vote to a specified candidate
  * Once a user has voted, the app removes the ability to revote from the user
-![voting-dapp drawio](https://user-images.githubusercontent.com/78957509/133527228-a4f9795e-093d-465a-b377-fc4a9add5b04.png)
+- [ ] Use case:
+![Usecase drawio](https://user-images.githubusercontent.com/78957509/134256321-c93d4257-51f0-44e8-93b0-8d7ea6bc1cb3.png)
 - [ ] "Transactions" can be referred as votes in our context.
 - [ ] Tech stack:
   * Front-end: JavaScript, HTML, CSS, Web3js, Metamask wallet
