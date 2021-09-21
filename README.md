@@ -53,5 +53,15 @@
   * **Privacy**: you don’t need to provide real-world identity interact with a dapp as long as you have authorized permission to vote.
   * **Resistance to censorship**: no single entity on the network can block users from submitting transactions or reading data from the blockchain.
 
+### Usage Instructions (Dev environment)
+1. Clone this repo to your local folder
+2. Run local development server (assuming node and npm installed)
+ ```js
+  npm run dev
+ ```
+ ![image](https://user-images.githubusercontent.com/78957509/134257470-9fa25ba1-9131-4e41-9a02-67e5d1c87e42.png)
+
+
+
 
 
