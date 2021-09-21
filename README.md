@@ -62,25 +62,44 @@
  ![image](https://user-images.githubusercontent.com/78957509/134257470-9fa25ba1-9131-4e41-9a02-67e5d1c87e42.png)
 3. Install and set up metamask wallet: https://metamask.zendesk.com/hc/en-us/articles/360015489531-Getting-started-with-MetaMask
 4. Install ganache to get metamask account samples for testing on voters behalf
+
  ![image](https://user-images.githubusercontent.com/78957509/134257777-d95720b9-922b-4196-8107-3b7d621ddd66.png)
+ 
 5. Import ganache account to your metamask wallet
  a. Click on metamask extension and proceed to import account. You will see the prompted private key string.
+ 
  ![image](https://user-images.githubusercontent.com/78957509/134257928-b4481e93-dee1-471b-80c2-7c1ee0a04c65.png)
+ 
  b. Return to ganache and pick any of the accounts and click show key at the end of the picked account
+ 
  ![image](https://user-images.githubusercontent.com/78957509/134258043-2999a69e-1ca9-4661-9182-a45c9f959f09.png)
+ 
  c. Copy the private key
+ 
  ![image](https://user-images.githubusercontent.com/78957509/134258090-bd5dcdcf-8144-4251-bf18-049db70c199d.png)
+ 
  d. paste key to the prompted private key string in your metamask wallet
+ 
  ![image](https://user-images.githubusercontent.com/78957509/134258211-31bd1c7c-9481-4240-9b09-a32c543b0cde.png)
+ 
  e. Connect account to the Dapp by clicking the not "connected button" first then "connect". Make sure you are on local dev site.
+ 
  ![image](https://user-images.githubusercontent.com/78957509/134258383-09168e20-b669-4bb5-8ac0-b67a3bf8c599.png)
+ 
  ![image](https://user-images.githubusercontent.com/78957509/134258440-d7487909-61fb-4e2e-98d1-5cb58b8cd93c.png)
+ 
 6. Pick a candidate of your choice and vote (sorry for the cut off image. I am new to web dev 😢)
+
  ![image](https://user-images.githubusercontent.com/78957509/134258575-f310b9f2-49e2-45de-bdc8-2b72a642e5df.png)
+ 
 7. Pay gas fee to cast a vote
+
  ![image](https://user-images.githubusercontent.com/78957509/134258683-22302eca-b93d-43c1-bf32-9ae7facdc21d.png)
+ 
 8. View updated vote 
+
  ![image](https://user-images.githubusercontent.com/78957509/134259079-a8248e1f-20aa-497f-9a49-0b50670a82c2.png)
+ 
 9. You can import other accounts from ganache to metamask wallet to see if it casts another vote 
 
  
